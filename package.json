@@ -1,0 +1,17 @@
+{
+  "name": "perpetual-futures-engine",
+  "version": "1.0.0",
+  "description": "On-chain leverage trading system",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run deploy.js",
+    "trade": "npx hardhat run open_position.js"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.0",
+    "dotenv": "^16.0.3",
+    "@openzeppelin/contracts": "^4.9.0"
+  },
+  "license": "MIT"
+}
